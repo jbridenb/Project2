@@ -1,6 +1,22 @@
-html {
+body {
     font-family: Arial;
+    font-size: 12;
+    background-image: url("backgroundimp.jpg");
+    margin: 10px 100px ;
 }
 h1 {
-
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Personal p {
+    text-indent: 12px;
+}
+img {
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
