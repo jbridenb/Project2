@@ -23,8 +23,13 @@ h1::after {
     text-decoration: underline;
 }
 
-h2{
-    margin:auto;
+h2 {
+    margin: auto;
+}
+
+.haikuContent {
+    width: 50%;
+    text-align: center;
 }
 
 .Personal p {
@@ -36,12 +41,60 @@ img {
     border: 10px solid white;
 
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
+table,
+th,
+td {
+    border: 1px solid;
+    vertical-align: top;
+}
+
 table {
-    background-color: white;
+    border: 5px solid black;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(120, 119, 119);
+    width: 100px;
+}
+
+td {
+    text-align: center;
+    background-color: darkgray;
+}
+
+.timeColumn {
+    width: auto;
+}
+
+.commute {
+    background-color: red;
+}
+
+.work {
+    background-color: aqua;
+    
+}
+
+.class {
+    background-color: tan;
+}
+
+.home {
+    background-color: green;
+}
+.oddRow {
+    background-color: lightgray;
+}
+.ffxiv {
+    background-color: lightgreen;
 }
