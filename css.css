@@ -1,22 +1,47 @@
 body {
+    /* background-image: url("backgroundimp.jpg"); */
+    background-color: beige;
     font-family: Arial;
-    font-size: 12;
-    background-image: url("backgroundimp.jpg");
-    margin: 10px 100px ;
+    font-size: 12pt;
+    border: 50px solid silver;
+    padding: 25px;
 }
+
 h1 {
-    text-align: center;
-    padding-bottom: 50px;
+    text-align: left;
+    padding: 25px 50px 50px 0px;
+    font-size: 30pt;
+    text-decoration: underline;
+    /* background-color: beige; */
+    margin: 0px;
+    border: 0px;
+    white-space: pre;
 }
+
+h1::after {
+    content: "\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0";
+    text-decoration: underline;
+}
+
+h2{
+    margin:auto;
+}
+
 .Personal p {
-    text-indent: 12px;
+    text-indent: 12pt;
 }
+
 img {
     float: right;
+    border: 10px solid white;
+
 }
 a {
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
+}
+table {
+    background-color: white;
 }
