@@ -1,20 +1,29 @@
 body {
-    /* background-image: url("backgroundimp.jpg"); */
-    background-color: beige;
-    font-family: Arial;
-    font-size: 12pt;
-    border: 50px solid silver;
-    padding: 25px;
+    border-top: 50px;
+}
+
+.outside {
+    background: #efe0cb url("backgroundimp.jpg") repeat fixed top center;
+}
+
+.container {
+    margin-top: 10px;
+    background-color: #efe0cb;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    display: block;
+    box-shadow: 0 0 40px rgb(0 0 0 / 50%);
+    margin-bottom: 10px;
 }
 
 h1 {
     text-align: left;
-    padding: 25px 50px 50px 0px;
+    padding: 50px 50px 25px 0px;
     font-size: 30pt;
     text-decoration: underline;
     /* background-color: beige; */
     margin: 0px;
-    border: 0px;
     white-space: pre;
 }
 
@@ -69,7 +78,6 @@ th {
 
 td {
     text-align: center;
-    background-color: darkgray;
 }
 
 .timeColumn {
@@ -82,7 +90,7 @@ td {
 
 .work {
     background-color: aqua;
-    
+
 }
 
 .class {
@@ -92,9 +100,16 @@ td {
 .home {
     background-color: green;
 }
-.oddRow {
-    background-color: lightgray;
+
+tr:nth-child(odd) {
+    background-color: #ccc;
+
 }
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
 .ffxiv {
     background-color: lightgreen;
 }
