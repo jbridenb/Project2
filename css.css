@@ -14,12 +14,13 @@ body {
 .container {
     margin-top: 10px;
     background-color: #efe0cb;
-    width: 50%;
+    width: 60%;
     position: relative;
-    left: 25%;
+    left: 30%;
     display: block;
     box-shadow: 0 0 40px rgb(0 0 0 / 50%);
     margin-bottom: 10px;
+    padding: 25px;
 }
 
 h1 {
@@ -39,7 +40,8 @@ h1::after {
 }
 
 h2 {
-    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
     font-family: Aboreto, "Times New Roman", sans-serif;
 }
 
